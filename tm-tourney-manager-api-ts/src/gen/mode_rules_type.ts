@@ -29,7 +29,7 @@ import {
 import * as ModeRulesVariants from './mode_rules_variants'
 
 // The tagged union or sum type for the algebraic type `ModeRules`.
-export type ModeRules = never;
+export type ModeRules = any;
 
 // A value with helper functions to construct the type.
 export const ModeRules = {
